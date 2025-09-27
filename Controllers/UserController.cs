@@ -1,18 +1,3 @@
-dotnet add package Microsoft.EntityFrameworkCore --version 6.*
-dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.*
-dotnet add package Microsoft.EntityFrameworkCore.Tools --version 6.
-{
-    "Login": {
-        "LogLevel":{
-            "Default": "Information",
-            "Microsoft.AspNetCore": "Warning"
-        }
-    },
-    "AllowedHosts":"*",
-    "ConnectionStrings":{
-        "DefaultConnnection": "Server=.-P0514\\SQLEXPRESS;Database=LearnAspNetCore;User Id=sa;Password=123456"
-    }
-}
 using LearnApiNetCore.Entity;
 using LearnApiNetCore.Models;
 using Microsoft.AspNetCore.Mvc;
